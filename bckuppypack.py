@@ -60,7 +60,7 @@ layout = [
      sg.Radio("Restore", "RADIO1", key="-RESTORE-")],
     [sg.Text("Directory:"), sg.InputText(key="-DIR-"),
      sg.FolderBrowse(button_text="Browse")],
-    # [sg.Checkbox("Download packages from the internet", key="-DOWNLOAD-", default=False)],
+    [sg.Checkbox("Download packages from the internet", key="-DOWNLOAD-", default=False)],
     [sg.ProgressBar(100, orientation="h", size=(20, 20), key="-PROGRESS-")],
     [sg.Output(size=(50, 10), key="-OUTPUT-")],
     [sg.Button("Execute"), sg.Button("Exit")]
