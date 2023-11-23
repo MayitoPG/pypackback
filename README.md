@@ -38,6 +38,6 @@ Progress and Output:
 
 Notes: When performing a backup, you have the option to download packages from the internet. Please note that this requires an internet connection.
 
-In case of any errors, check the console for details.
+In case of any errors: Check the console for details.
 
 
